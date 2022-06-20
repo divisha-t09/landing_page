@@ -1,0 +1,447 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background: #63B0A1;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social {
+    margin: 0em;
+    padding: 1em;
+    display: flex;
+}
+
+.social p{
+    margin: 0.2em;
+    padding: 0.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lg{
+    padding: 0.5em;
+}
+
+.container{
+    display: flex;
+    padding-left: 47em;
+}
+
+#nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mail{
+    display: flex;
+}
+
+#mail p{
+    color: #fff;
+    padding-top: 1.6em;
+    margin-right: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mail{
+    height: 1em;
+    width: 1em;
+    margin: 1em;
+    padding-top: 0.6em;
+}
+
+#ph{
+    display: flex;
+}
+
+.ph{
+    height: 1em;
+    width: 1em;
+    margin: 1em;
+    padding-top: 0.6em;
+}
+
+#ph p{
+    color: #fff;
+    padding-top: 1.5em;
+    margin-right: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#en{
+    display: flex;
+}
+
+#en p{
+    color: #fff;
+    padding-top: 1.5em;
+    margin-left: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.en{
+    height: 0.5em;
+    width: 0.5em;
+    margin: 1em;
+    margin-left: 0.3em;
+    padding-top: 0.8em;
+}
+
+
+#sec1{
+    display: flex;
+    margin: 0.1em;
+    padding: 2em;
+    background-color: #fff;
+}
+
+#logo{
+    display: flex;
+    height: 2.3em;
+    padding-left: 12em;
+    margin: 1em;
+    margin-bottom: 2em;
+}
+
+.logo{
+    height: 4em;
+    width: 12em;
+}
+
+#nav ul{
+    display: flex;
+    list-style: none;
+    padding-left: 8.5em;
+}
+
+#nav ul li{
+    padding: 1.5em;
+    padding-right: 3em;
+    margin: 0.1em;
+    font-size: 1.1em;   
+}
+
+a {
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+
+li {
+    list-style: none;
+}
+
+.btn{
+    padding-left: 7%;
+    padding-top: 7em;
+    font-size: 12%; 
+}
+
+.btnc{
+    padding: 0.5em;
+    color: #fff;
+    background-color: #63b0a1;
+    border: none;
+    height: 3em;
+    width: 8em;
+}
+
+.sec2{
+    background-image: url(./images/slide-one.jpg);
+    height: 42em;
+    width: 100%;
+    position: relative;
+}
+
+.sec2 h1{
+    color: #fff;
+    font-weight: 10em;
+    text-align: left;
+    font-size: 3em;
+}
+
+.sec2 p{
+    color: #fff;
+    text-align: left;
+    padding-left: 0.5em;
+    padding-top: 2em;
+    width: 44em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+
+.sec_2{
+    display: flex;
+    margin-left: 16em;
+}
+
+.sec_2_1{
+    padding-left: 3em;
+    padding-top: 3em;
+}
+
+.back{
+    width: 2em;
+    height: 2em;
+    padding-top: 9.5em;
+}
+
+.next{
+    width: 2em;
+    height: 2em;
+    padding-left: 26.5em;
+    padding-top: 9.5em;
+}
+
+.stng{
+    padding-top: 5em;
+    display: flex;
+}
+
+.stng img{
+    background-color: #fff;
+    padding: 0.6em;
+    border: solid 0.01em #ffffff;
+    height: 1em;
+    width: 1em;
+}
+
+.btns3 button{
+    border: solid #fff;
+    color: #fff;
+    background-color: black;
+    padding: 0.8em;
+    margin: 1em;
+    margin-top: 4em;
+    border-radius: 0.4em;
+}
+
+.btns3{
+    margin-left: -1em;
+}
+
+.ourCauses{
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.our{
+    padding-right: 0.25em;
+}
+
+.causes{
+    color: #63B0A1;
+}
+
+.head{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.main{
+    display: grid;
+}
+
+.main img{
+    padding-left: 59em;
+    width: 8em;
+    padding-top: 0.4em;
+    padding-bottom: 0.5em;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    height: 24em;
+    width: 24em;
+    margin-left: 1em;
+    background-color: #e5e4e4;
+}
+
+.card h3{
+    text-align: center;
+    padding: 1em;
+}
+
+.card p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.price{
+    padding-top: 3em;
+    display: flex;
+}
+
+.btn1{  
+    padding: 0.6em;
+    background-color: white;
+    border-radius: 0.4em;
+    color: grey;
+    border-color: grey;
+}
+
+.prc{
+    font-size: 1.1em;
+    margin-left: 9.8em;
+    padding-top: 0.5em;
+    color: #484747;
+}
+
+.cards{
+    grid-gap: 3em;
+}
+
+.card img{
+    width: 24em;
+    height: 16em;
+}
+
+#sec4{
+    color: #fff;
+    background-image: url(./images/people-say-bg.jpg);
+    background-repeat: no-repeat;
+    margin-top: 8em;
+    background-position-y: 1.2em;
+    background-size: cover;
+}
+
+#sec4 h1{
+    text-align: center;
+    padding-top: 3em
+}
+
+.wr{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.crds{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+}
+
+.crds img{
+    height: 30px;
+    width: 30px;
+    padding: 0.6em;
+    border: solid 0.01em #2c9eb8;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+
+.crd{
+    display: flex;
+    margin: 2em;
+    padding: 2em;
+    width: 23em;
+    height: 16em;
+}
+
+.txt{
+    padding-top: 0.3em;
+    padding-left: 0.3em;
+}
+
+.txt p{
+    padding-top: 1em;
+}
+
+.crd button{
+    padding: 1em;
+    background-color: black;
+    color: white;
+    border: solid 0.2em white;
+    margin-top: 6em;
+    border-radius: 0.4em;
+}
+
+footer{
+    background-color: rgb(38, 35, 35);
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.line{
+    width: 2em;
+    height: 2em;
+    padding-bottom: 1em;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    grid-gap: 10em;
+    padding-bottom: 2em;
+}
+
+footer h2{
+    font-weight: bold;
+    padding: 0.3em 0.3em 0em 0em;
+}
+
+footer p{
+    padding: 0.6em;
+    padding-left: 0em;
+}
+
+.wp{
+    text-align: left;
+    padding-top: 2em;
+}
+
+.bottom{
+    background-color: black;
+    display: flex;
+}
+
+.wp input{
+    
+    margin-top: 2em;
+    height: 1em;
+    width: 18em;
+    font-size: 01em;
+    padding: 0.4em;
+
+}
+
+.inpt{
+    display: flex;
+}
+
+.eb{
+    background-color: #63B0A1;
+    margin-top: 2em;
+    width: 2.5em;
+}
+
+.eb img{
+    padding-top: 0.5em;
+    padding-left: 0.6em;
+}
+
+.bottom p{
+    padding-top: 0.7em;
+    padding-left: 11em;
+}
+
+.media{
+    padding-left: 74em;
+    padding-top: 0.7em;
+}
+
+.media img{
+    padding: 0.5em;
+}
